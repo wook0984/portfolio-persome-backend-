@@ -4,8 +4,6 @@
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 ![JPA](https://img.shields.io/badge/JPA-A46A41?style=for-the-badge&logo=Hibernate&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Uploading Persome (1).png…]()
-
 ---
 
 ##  1. 프로젝트 소개
