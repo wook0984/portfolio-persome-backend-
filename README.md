@@ -53,7 +53,7 @@ DB 커넥션 풀 사이즈를 최적화하고, 애플리케이션 레벨의 `syn
 - Backend: Java 21, Spring Boot, Spring MVC, JPA
 - Database: MySQL, Oracle 11g
 - Infra & Tools: Git, Github, IntelliJ IDEA, VisualVM, Docker
-- *ollaboration: Slack, Notion
+- Collaboration: Slack, Notion
 
 ---
 
