@@ -91,3 +91,6 @@ public class ProductController {
         return OrderSearchDto.builder().page(page).size(size).build();
     }
 }
+위 코드에서 보시는 것처럼 저는 API의 명확한 역할 분리와 DTO를 통한 안전한 데이터 전송을 중요하게 생각합니다.
+Entity가 아닌 ProductDetailResponse와 같은 DTO를 반환함으로써
+API 스펙의 변경이 데이터베이스 모델(Entity)에 영향을 주지 않도록 설계했습니다
