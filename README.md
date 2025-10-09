@@ -33,9 +33,9 @@
 -   `ProductViewController`: 서버사이드 렌더링을 위한 페이지 이동(View) 로직을 전담합니다.
 -   이러한 관심사의 분리(Separation of Concerns)를 통해 각 컨트롤러가 하나의 책임에만 집중하도록 하여, 향후 기능 변경 및 확장이 용이한 구조를 설계했습니다.
 
-### DTO를 활용한 안정적인 데이터 전송 설계**
+### DTO를 활용한 안정적인 데이터 전송 설계
 JPA Entity를 API에 직접 노출할 경우 발생할 수 있는 문제를 방지하기 위해, 요청(Request)과 응답(Response)의 목적에 맞는 DTO(`Data Transfer Object`)를 적극적으로 설계하고 활용했습니다.
--   Request DTO (`OrderSearchDto`):** 검색 및 페이징 조건과 같은 클라이언트의 요청 데이터를 안전하게 캡슐화합니다.
+-   Request DTO (`OrderSearchDto`): 검색 및 페이징 조건과 같은 클라이언트의 요청 데이터를 안전하게 캡슐화합니다.
 -   Response DTO (`ProductDetailResponse`, `PageProductAllResponse`): API 스펙에 필요한 데이터만 선별하여 전달함으로써, 불필요한 데이터 노출을 막고 Entity의 데이터 무결성을 보호했습니다.
 
 ### 계층형 아키텍처 기반의 비즈니스 로직 구현
